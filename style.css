@@ -8,23 +8,23 @@
 
 .header-picture #pic1{
 
-    height: 400px;
+   
   
-width:950px ;
+width:100%;
 position: relative;
 }
 
 .header-desc{
 position: absolute;
-left: 600px;
-width: 250px;
-top:90px;
+left: 1000px;
+width: 300px;
+top:200px;
 font-family: 'Courier New', Courier, monospace;
 }
 
 
 .header-para{
-    font-size: 15px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -40,36 +40,40 @@ font-family: 'Courier New', Courier, monospace;
   color: white;
   background-color: orangered;
   border: none;
-  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
 
 }
 
 
  #pic2{
-height:300px;
+height:500px;
 width:auto;
 
 }
 
 .person{
     display:flex;
-    gap:80px;
+    gap:200px;
 margin-left: 200px;
 
 }
 
 .person-para,li{
-
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 
 .person-desc{
 
-width: 200px;
+width: 300px;
 margin-top: 60px;
 margin-bottom: 50px;
 font-family: 'Courier New', Courier, monospace;
+font-size: 22px;
+
 }
  
 
@@ -86,18 +90,38 @@ body{
 
 .person-heading{
 
-margin-bottom: 12px;
+margin-bottom: 15px;
 
 }
 
 
 .sec2-heading{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 70px;
 }
 
 .my-plans{
     display: flex;
-    gap: 10px;
+    gap: 120px;
     justify-content: center;
+}
+
+h2{
+
+    font-size: 40px;
+}
+
+h3{
+
+    font-size:28px;
+}
+
+h4{
+    font-size: 20px;
+    color:rgb(51, 51, 51);
+}
+
+.logo1,.logo2,.logo3,.logo4{
+    text-align: center;
 }
