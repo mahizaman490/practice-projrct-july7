@@ -163,4 +163,42 @@ padding: 20px;
 background-color: white;
 width: 150px;
 font-size: 20px;
+
+}
+
+footer{
+    margin-top: 500px;
+    display:flex;
+    color: white;
+    background-color: black;
+    padding: 70px;
+    gap: 600px;
+}
+
+.subscribe{
+    width: 200px;
+    
+}
+
+.sub{
+
+    margin-bottom: 30px; 
+}
+
+.future{
+    width: 400px;
+}
+.submit{
+    font-weight: bolder;
+
+}
+
+input{
+    border:1px solid white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px; 
+    width: 200px;
+    font-weight: bolder;
 }
