@@ -5,11 +5,41 @@
     padding: 0;
 }
 
-header{
-    background-color: rgb(230, 218, 204);
+
+.header-picture #pic1{
+
+    height: 400px;
+  
+width:950px ;
+position: relative;
 }
 
-.header-picture{
+.header-desc{
+position: absolute;
+left: 600px;
+width: 250px;
+top:80px;
 
-    background-image: url('images/banner/banner1.png');
+}
+
+
+.header-para{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+.header-heading{
+
+    margin-bottom: 20px;
+    
+}
+
+.btn-primary{
+
+  color: white;
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+
 }
