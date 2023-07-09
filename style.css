@@ -125,3 +125,42 @@ h4{
 .logo1,.logo2,.logo3,.logo4{
     text-align: center;
 }
+
+
+.watch{
+    position: relative;
+  width:200px;
+  top:160px;
+  height: 100px;
+  margin-left: 110px;
+}
+
+.absolute{
+top:0;
+    position: absolute;
+    width:200px;
+
+}
+
+.absolute2{
+top: 80px;
+left: 100px;
+    position: absolute;
+
+}
+
+#absh{
+width: 350px;
+color: white;
+
+}
+
+.btn{
+
+color: rgb(236, 11, 11);
+border: none;
+padding: 20px;
+background-color: white;
+width: 150px;
+font-size: 20px;
+}
