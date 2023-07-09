@@ -18,8 +18,8 @@ position: relative;
 position: absolute;
 left: 600px;
 width: 250px;
-top:80px;
-
+top:90px;
+font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -41,5 +41,51 @@ top:80px;
   background-color: orangered;
   border: none;
   padding: 10px;
+
+}
+
+
+ #pic2{
+height:300px;
+width:auto;
+
+}
+
+.person{
+    display:flex;
+    gap:80px;
+margin-left: 200px;
+
+}
+
+.person-para,li{
+
+    font-size: 15px;
+}
+
+
+.person-desc{
+
+width: 200px;
+margin-top: 60px;
+margin-bottom: 50px;
+font-family: 'Courier New', Courier, monospace;
+}
+ 
+
+header{
+
+    margin-bottom: 90px;
+}
+
+body{
+
+  background-color: rgb(250, 245, 197);
+}
+
+
+.person-heading{
+
+margin-bottom: 12px;
 
 }
